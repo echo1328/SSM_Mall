@@ -32,6 +32,5 @@ public class Result implements Serializable {
         this.message = message;
     }
 
-    //d
-
+    //sd3223323223
 }
