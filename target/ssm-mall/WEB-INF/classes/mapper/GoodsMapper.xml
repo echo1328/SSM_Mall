@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mall.mapper.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.ssm.mall.pojo.Goods">
+    <id column="goods_id" jdbcType="INTEGER" property="goods_id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="caption" jdbcType="VARCHAR" property="caption" />
+    <result column="price_before" jdbcType="DOUBLE" property="price_before" />
+    <result column="price_after" jdbcType="DOUBLE" property="price_after" />
+    <result column="introduction" jdbcType="VARCHAR" property="introduction" />
+    <result column="activity" jdbcType="VARCHAR" property="activity" />
+    <result column="sale" jdbcType="INTEGER" property="sale" />
+    <result column="reserve" jdbcType="INTEGER" property="reserve" />
+    <result column="comment" jdbcType="INTEGER" property="comment" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="sort1_id" jdbcType="INTEGER" property="sort1_id" />
+    <result column="sort2_id" jdbcType="INTEGER" property="sort2_id" />
+    <result column="sort3_id" jdbcType="INTEGER" property="sort3_id" />
+    <result column="brand_id" jdbcType="INTEGER" property="brand_id" />
+    <result column="shop_id" jdbcType="INTEGER" property="shop_id" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="is_marketable" jdbcType="INTEGER" property="is_marketable" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    goods_id, name, image, caption, price_before, price_after, introduction, activity, 
+    sale, reserve, comment, score, sort1_id, sort2_id, sort3_id, brand_id, shop_id, status, 
+    is_marketable
+  </sql>
+  <select id="selectByExample" parameterType="com.ssm.mall.pojo.GoodsExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from goods
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from goods
+    where goods_id = #{goods_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from goods
+    where goods_id = #{goods_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.ssm.mall.pojo.Goods">
+    insert into goods (goods_id, name, image, 
+      caption, price_before, price_after, 
+      introduction, activity, sale, 
+      reserve, comment, score, 
+      sort1_id, sort2_id, sort3_id, 
+      brand_id, shop_id, status, 
+      is_marketable)
+    values (#{goods_id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{image,jdbcType=VARCHAR}, 
+      #{caption,jdbcType=VARCHAR}, #{price_before,jdbcType=DOUBLE}, #{price_after,jdbcType=DOUBLE}, 
+      #{introduction,jdbcType=VARCHAR}, #{activity,jdbcType=VARCHAR}, #{sale,jdbcType=INTEGER}, 
+      #{reserve,jdbcType=INTEGER}, #{comment,jdbcType=INTEGER}, #{score,jdbcType=INTEGER}, 
+      #{sort1_id,jdbcType=INTEGER}, #{sort2_id,jdbcType=INTEGER}, #{sort3_id,jdbcType=INTEGER}, 
+      #{brand_id,jdbcType=INTEGER}, #{shop_id,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{is_marketable,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ssm.mall.pojo.Goods">
+    insert into goods
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="goods_id != null">
+        goods_id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="image != null">
+        image,
+      </if>
+      <if test="caption != null">
+        caption,
+      </if>
+      <if test="price_before != null">
+        price_before,
+      </if>
+      <if test="price_after != null">
+        price_after,
+      </if>
+      <if test="introduction != null">
+        introduction,
+      </if>
+      <if test="activity != null">
+        activity,
+      </if>
+      <if test="sale != null">
+        sale,
+      </if>
+      <if test="reserve != null">
+        reserve,
+      </if>
+      <if test="comment != null">
+        comment,
+      </if>
+      <if test="score != null">
+        score,
+      </if>
+      <if test="sort1_id != null">
+        sort1_id,
+      </if>
+      <if test="sort2_id != null">
+        sort2_id,
+      </if>
+      <if test="sort3_id != null">
+        sort3_id,
+      </if>
+      <if test="brand_id != null">
+        brand_id,
+      </if>
+      <if test="shop_id != null">
+        shop_id,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="is_marketable != null">
+        is_marketable,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="goods_id != null">
+        #{goods_id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="image != null">
+        #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="caption != null">
+        #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="price_before != null">
+        #{price_before,jdbcType=DOUBLE},
+      </if>
+      <if test="price_after != null">
+        #{price_after,jdbcType=DOUBLE},
+      </if>
+      <if test="introduction != null">
+        #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="activity != null">
+        #{activity,jdbcType=VARCHAR},
+      </if>
+      <if test="sale != null">
+        #{sale,jdbcType=INTEGER},
+      </if>
+      <if test="reserve != null">
+        #{reserve,jdbcType=INTEGER},
+      </if>
+      <if test="comment != null">
+        #{comment,jdbcType=INTEGER},
+      </if>
+      <if test="score != null">
+        #{score,jdbcType=INTEGER},
+      </if>
+      <if test="sort1_id != null">
+        #{sort1_id,jdbcType=INTEGER},
+      </if>
+      <if test="sort2_id != null">
+        #{sort2_id,jdbcType=INTEGER},
+      </if>
+      <if test="sort3_id != null">
+        #{sort3_id,jdbcType=INTEGER},
+      </if>
+      <if test="brand_id != null">
+        #{brand_id,jdbcType=INTEGER},
+      </if>
+      <if test="shop_id != null">
+        #{shop_id,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="is_marketable != null">
+        #{is_marketable,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ssm.mall.pojo.Goods">
+    update goods
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="image != null">
+        image = #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="caption != null">
+        caption = #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="price_before != null">
+        price_before = #{price_before,jdbcType=DOUBLE},
+      </if>
+      <if test="price_after != null">
+        price_after = #{price_after,jdbcType=DOUBLE},
+      </if>
+      <if test="introduction != null">
+        introduction = #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="activity != null">
+        activity = #{activity,jdbcType=VARCHAR},
+      </if>
+      <if test="sale != null">
+        sale = #{sale,jdbcType=INTEGER},
+      </if>
+      <if test="reserve != null">
+        reserve = #{reserve,jdbcType=INTEGER},
+      </if>
+      <if test="comment != null">
+        comment = #{comment,jdbcType=INTEGER},
+      </if>
+      <if test="score != null">
+        score = #{score,jdbcType=INTEGER},
+      </if>
+      <if test="sort1_id != null">
+        sort1_id = #{sort1_id,jdbcType=INTEGER},
+      </if>
+      <if test="sort2_id != null">
+        sort2_id = #{sort2_id,jdbcType=INTEGER},
+      </if>
+      <if test="sort3_id != null">
+        sort3_id = #{sort3_id,jdbcType=INTEGER},
+      </if>
+      <if test="brand_id != null">
+        brand_id = #{brand_id,jdbcType=INTEGER},
+      </if>
+      <if test="shop_id != null">
+        shop_id = #{shop_id,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="is_marketable != null">
+        is_marketable = #{is_marketable,jdbcType=INTEGER},
+      </if>
+    </set>
+    where goods_id = #{goods_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ssm.mall.pojo.Goods">
+    update goods
+    set name = #{name,jdbcType=VARCHAR},
+      image = #{image,jdbcType=VARCHAR},
+      caption = #{caption,jdbcType=VARCHAR},
+      price_before = #{price_before,jdbcType=DOUBLE},
+      price_after = #{price_after,jdbcType=DOUBLE},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      activity = #{activity,jdbcType=VARCHAR},
+      sale = #{sale,jdbcType=INTEGER},
+      reserve = #{reserve,jdbcType=INTEGER},
+      comment = #{comment,jdbcType=INTEGER},
+      score = #{score,jdbcType=INTEGER},
+      sort1_id = #{sort1_id,jdbcType=INTEGER},
+      sort2_id = #{sort2_id,jdbcType=INTEGER},
+      sort3_id = #{sort3_id,jdbcType=INTEGER},
+      brand_id = #{brand_id,jdbcType=INTEGER},
+      shop_id = #{shop_id,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      is_marketable = #{is_marketable,jdbcType=INTEGER}
+    where goods_id = #{goods_id,jdbcType=INTEGER}
+  </update>
+</mapper>
