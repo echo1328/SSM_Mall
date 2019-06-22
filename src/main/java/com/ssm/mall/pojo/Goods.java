@@ -5,6 +5,7 @@ import org.apache.solr.client.solrj.beans.Field;
 import java.io.Serializable;
 
 public class Goods implements Serializable {
+
     @Field("id")
     private Integer goods_id;
 
@@ -16,6 +17,8 @@ public class Goods implements Serializable {
 
     @Field("item_caption")
     private String caption;
+
+    private String url;
 
     private Double price_before;
 
@@ -82,6 +85,14 @@ public class Goods implements Serializable {
 
     public void setCaption(String caption) {
         this.caption = caption == null ? null : caption.trim();
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url == null ? null : url.trim();
     }
 
     public Double getPrice_before() {
@@ -210,6 +221,33 @@ public class Goods implements Serializable {
 
     public void setOrder_amount(int order_amount) {
         this.order_amount = order_amount;
+    }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "goods_id=" + goods_id +
+                ", name='" + name + '\'' +
+                ", image='" + image + '\'' +
+                ", caption='" + caption + '\'' +
+                ", url='" + url + '\'' +
+                ", price_before=" + price_before +
+                ", price_after=" + price_after +
+                ", introduction='" + introduction + '\'' +
+                ", activity='" + activity + '\'' +
+                ", sale=" + sale +
+                ", reserve=" + reserve +
+                ", comment=" + comment +
+                ", score=" + score +
+                ", sort1_id=" + sort1_id +
+                ", sort2_id=" + sort2_id +
+                ", sort3_id=" + sort3_id +
+                ", brand_id=" + brand_id +
+                ", shop_id=" + shop_id +
+                ", status=" + status +
+                ", is_marketable=" + is_marketable +
+                ", order_amount=" + order_amount +
+                '}';
     }
 
 }

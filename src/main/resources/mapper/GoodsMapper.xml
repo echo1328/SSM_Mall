@@ -6,6 +6,7 @@
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="image" jdbcType="VARCHAR" property="image" />
     <result column="caption" jdbcType="VARCHAR" property="caption" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
     <result column="price_before" jdbcType="DOUBLE" property="price_before" />
     <result column="price_after" jdbcType="DOUBLE" property="price_after" />
     <result column="introduction" jdbcType="VARCHAR" property="introduction" />
@@ -52,7 +53,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    goods_id, name, image, caption, price_before, price_after, introduction, activity, 
+    goods_id, name, image, caption, url, price_before, price_after, introduction, activity, 
     sale, reserve, comment, score, sort1_id, sort2_id, sort3_id, brand_id, shop_id, status, 
     is_marketable
   </sql>
@@ -83,19 +84,19 @@
   </delete>
   <insert id="insert" parameterType="com.ssm.mall.pojo.Goods">
     insert into goods (goods_id, name, image, 
-      caption, price_before, price_after, 
-      introduction, activity, sale, 
-      reserve, comment, score, 
-      sort1_id, sort2_id, sort3_id, 
-      brand_id, shop_id, status, 
-      is_marketable)
+      caption, url, price_before, 
+      price_after, introduction, activity, 
+      sale, reserve, comment, 
+      score, sort1_id, sort2_id, 
+      sort3_id, brand_id, shop_id, 
+      status, is_marketable)
     values (#{goods_id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{image,jdbcType=VARCHAR}, 
-      #{caption,jdbcType=VARCHAR}, #{price_before,jdbcType=DOUBLE}, #{price_after,jdbcType=DOUBLE}, 
-      #{introduction,jdbcType=VARCHAR}, #{activity,jdbcType=VARCHAR}, #{sale,jdbcType=INTEGER}, 
-      #{reserve,jdbcType=INTEGER}, #{comment,jdbcType=INTEGER}, #{score,jdbcType=INTEGER}, 
-      #{sort1_id,jdbcType=INTEGER}, #{sort2_id,jdbcType=INTEGER}, #{sort3_id,jdbcType=INTEGER}, 
-      #{brand_id,jdbcType=INTEGER}, #{shop_id,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
-      #{is_marketable,jdbcType=INTEGER})
+      #{caption,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{price_before,jdbcType=DOUBLE}, 
+      #{price_after,jdbcType=DOUBLE}, #{introduction,jdbcType=VARCHAR}, #{activity,jdbcType=VARCHAR}, 
+      #{sale,jdbcType=INTEGER}, #{reserve,jdbcType=INTEGER}, #{comment,jdbcType=INTEGER}, 
+      #{score,jdbcType=INTEGER}, #{sort1_id,jdbcType=INTEGER}, #{sort2_id,jdbcType=INTEGER}, 
+      #{sort3_id,jdbcType=INTEGER}, #{brand_id,jdbcType=INTEGER}, #{shop_id,jdbcType=INTEGER}, 
+      #{status,jdbcType=INTEGER}, #{is_marketable,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.ssm.mall.pojo.Goods">
     insert into goods
@@ -111,6 +112,9 @@
       </if>
       <if test="caption != null">
         caption,
+      </if>
+      <if test="url != null">
+        url,
       </if>
       <if test="price_before != null">
         price_before,
@@ -171,6 +175,9 @@
       <if test="caption != null">
         #{caption,jdbcType=VARCHAR},
       </if>
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
       <if test="price_before != null">
         #{price_before,jdbcType=DOUBLE},
       </if>
@@ -230,6 +237,9 @@
       <if test="caption != null">
         caption = #{caption,jdbcType=VARCHAR},
       </if>
+      <if test="url != null">
+        url = #{url,jdbcType=VARCHAR},
+      </if>
       <if test="price_before != null">
         price_before = #{price_before,jdbcType=DOUBLE},
       </if>
@@ -283,6 +293,7 @@
     set name = #{name,jdbcType=VARCHAR},
       image = #{image,jdbcType=VARCHAR},
       caption = #{caption,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
       price_before = #{price_before,jdbcType=DOUBLE},
       price_after = #{price_after,jdbcType=DOUBLE},
       introduction = #{introduction,jdbcType=VARCHAR},
