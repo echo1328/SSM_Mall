@@ -11,7 +11,7 @@
  Target Server Version : 50562
  File Encoding         : 65001
 
- Date: 21/06/2019 17:07:37
+ Date: 22/06/2019 20:14:21
 */
 
 SET NAMES utf8mb4;
@@ -202,13 +202,14 @@ CREATE TABLE `foot`  (
 DROP TABLE IF EXISTS `goods`;
 CREATE TABLE `goods`  (
   `goods_id` int(10) NOT NULL AUTO_INCREMENT COMMENT '商品id',
-  `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '商品名称',
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '商品名称',
   `image` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品图片',
-  `caption` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '副标题',
+  `caption` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '副标题',
+  `url` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品url地址',
   `price_before` double(10, 2) NULL DEFAULT NULL COMMENT '商品打折前价格',
   `price_after` double(10, 2) NULL DEFAULT NULL COMMENT '商品打折后价格',
-  `introduction` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品介绍',
-  `activity` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '促销活动',
+  `introduction` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品介绍',
+  `activity` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '促销活动',
   `sale` int(10) NULL DEFAULT NULL COMMENT '销售量',
   `reserve` int(10) NULL DEFAULT NULL COMMENT '库存',
   `comment` int(10) NULL DEFAULT NULL COMMENT '评价数',
@@ -226,15 +227,15 @@ CREATE TABLE `goods`  (
 -- ----------------------------
 -- Records of goods
 -- ----------------------------
-INSERT INTO `goods` VALUES (44, '黑干芝麻1111', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3emiAMNJ1AALM3NAK1Yg923.jpg', '南方黑芝麻糊原味360g/袋营养早餐小包装小袋装包邮南方黑芝饼麻干', 11.00, 11.33, '好吃', '买一送一', 23, 999, 111, 234, NULL, NULL, NULL, 2, 1, 1, NULL);
-INSERT INTO `goods` VALUES (45, '这是白板笔', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aEeAeVjDAAR23HUs-Hc733.jpg', '得力办公用品6893双头油性记号笔勾线笔马克笔一头粗一头细', 11.00, 10.00, '可以用很久', '满一送一', 44, 999, 222, 44, NULL, NULL, NULL, 3, 2, 1, NULL);
-INSERT INTO `goods` VALUES (46, '饼', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aM-AL-yJAAep7Z0FzgI625.jpg', '康师傅3+2苏打夹心饼干375g代餐饼干零食品香草奶油夹心饼干', 11.00, 4.00, '美味', '1折', 33, 999, 222, 33, NULL, NULL, NULL, 4, 2, 1, NULL);
-INSERT INTO `goods` VALUES (47, '海绵拖把222', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aQ-AHiy9AAN-c_UeJsU990.jpg', '宝家洁魔力速洁胶棉拖把头替换装绵头对折式海绵吸水拖把配件', 222.00, 2000.00, '好用', '11', 33, 888, 111, 11, 2, 18, NULL, 5, 2, 1, NULL);
-INSERT INTO `goods` VALUES (48, 'Joyoung/九阳', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3et-AJP2QAAHKIm3Waj8118.jpg', 'JYK-17C15电热水壶家用烧水壶器304不锈钢自动断电', 12.00, 8.00, '小麦制作', '满30减5', 22, 999, 22, 22, 8, 75, NULL, 6, 3, 1, NULL);
-INSERT INTO `goods` VALUES (49, 'NEW BALANCE', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3KUGAB1ETAAGhG81ZxXo601.jpg', '2018夏季新款男子运动休闲凉拖鞋M3068BK', 49.00, 40.00, '领卷满199-10', '打5折', 22, 88, 22, 111, 3, NULL, NULL, 7, 4, 1, NULL);
-INSERT INTO `goods` VALUES (54, '智能电话手表', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3eV2AFYaDAAOKfAfXr5Y699.jpg', '手机wifi多功能安卓插卡防水成人男孩女中小学生儿童上网初中生成年', 599.00, 499.00, '可以聊天，玩游戏', '满400减50', NULL, 999, NULL, NULL, 2, 25, NULL, 6, 5, 1, NULL);
-INSERT INTO `goods` VALUES (55, '探路者T恤', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3ey-AI-E3AAKTfQawicU510.jpg', '19春夏新款男式户外透气速干运动圆领短袖TAJH81927', 89.00, 88.00, '9', '9', NULL, 999, NULL, NULL, NULL, NULL, NULL, 5, 6, 1, NULL);
-INSERT INTO `goods` VALUES (56, '李宁运动鞋', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT010CA0qAcVzUAAMKIMcTI-M635.jpg', '男板鞋休闲鞋2019春季防滑减震耐磨时尚运动生活跑步男', 499.00, 399.00, '防滑减震耐磨时尚运动生活跑步男', '打一折', NULL, 999, 8, 90, 1, 17, NULL, 2, 2, 0, NULL);
+INSERT INTO `goods` VALUES (44, '黑干芝麻1111', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3emiAMNJ1AALM3NAK1Yg923.jpg', '南方黑芝麻糊原味360g/袋营养早餐小包装小袋装包邮南方黑芝饼麻干', NULL, 11.00, 11.33, '好吃', '买一送一', 23, 999, 111, 234, NULL, NULL, NULL, 2, 1, 1, 1);
+INSERT INTO `goods` VALUES (45, '这是白板笔', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aEeAeVjDAAR23HUs-Hc733.jpg', '得力办公用品6893双头油性记号笔勾线笔马克笔一头粗一头细', NULL, 11.00, 10.00, '可以用很久', '满一送一', 44, 999, 222, 44, NULL, NULL, NULL, 3, 2, 1, 1);
+INSERT INTO `goods` VALUES (46, '饼', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aM-AL-yJAAep7Z0FzgI625.jpg', '康师傅3+2苏打夹心饼干375g代餐饼干零食品香草奶油夹心饼干', NULL, 11.00, 4.00, '美味', '1折', 33, 999, 222, 33, NULL, NULL, NULL, 4, 2, 1, 1);
+INSERT INTO `goods` VALUES (47, '海绵拖把222', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z0aQ-AHiy9AAN-c_UeJsU990.jpg', '宝家洁魔力速洁胶棉拖把头替换装绵头对折式海绵吸水拖把配件', NULL, 222.00, 2000.00, '好用', '11', 33, 888, 111, 11, 2, 18, NULL, 5, 2, 1, 1);
+INSERT INTO `goods` VALUES (48, 'Joyoung/九阳', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3et-AJP2QAAHKIm3Waj8118.jpg', 'JYK-17C15电热水壶家用烧水壶器304不锈钢自动断电', NULL, 12.00, 8.00, '小麦制作', '满30减5', 22, 999, 22, 22, 8, 75, NULL, 6, 3, 1, 1);
+INSERT INTO `goods` VALUES (49, 'NEW BALANCE', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3KUGAB1ETAAGhG81ZxXo601.jpg', '2018夏季新款男子运动休闲凉拖鞋M3068BK', NULL, 49.00, 40.00, '领卷满199-10', '打5折', 22, 88, 22, 111, 3, NULL, NULL, 7, 4, 1, 1);
+INSERT INTO `goods` VALUES (54, '智能电话手表', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3eV2AFYaDAAOKfAfXr5Y699.jpg', '手机wifi多功能安卓插卡防水成人男孩女中小学生儿童上网初中生成年', NULL, 599.00, 499.00, '可以聊天，玩游戏', '满400减50', NULL, 999, NULL, NULL, 2, 25, NULL, 6, 5, 1, 1);
+INSERT INTO `goods` VALUES (55, '探路者T恤', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT01z3ey-AI-E3AAKTfQawicU510.jpg', '19春夏新款男式户外透气速干运动圆领短袖TAJH81927', NULL, 89.00, 88.00, '9', '9', NULL, 999, NULL, NULL, NULL, NULL, NULL, 5, 6, 1, 1);
+INSERT INTO `goods` VALUES (56, '李宁运动鞋', 'http://47.112.8.164:9999/group1/M00/00/01/rBLT010CA0qAcVzUAAMKIMcTI-M635.jpg', '男板鞋休闲鞋2019春季防滑减震耐磨时尚运动生活跑步男', NULL, 499.00, 399.00, '防滑减震耐磨时尚运动生活跑步男', '打一折', NULL, 999, 8, 90, 1, 17, NULL, 2, 2, 0, 1);
 
 -- ----------------------------
 -- Table structure for hot
