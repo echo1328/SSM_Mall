@@ -7,13 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f228d09e-c9eb-4330-8471-a9a0f0f56595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/mall.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mall.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mall.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/test/SolrUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
+            <state relative-caret-position="-668">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -155,8 +156,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="75" />
+    <option name="x" value="-55" />
+    <option name="y" value="57" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
@@ -252,7 +253,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/IntelliJ IDEA/Crawler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -575,7 +576,7 @@
       <workItem from="1561193405113" duration="25000" />
       <workItem from="1561205251654" duration="578000" />
       <workItem from="1561205848103" duration="60000" />
-      <workItem from="1561214772963" duration="282000" />
+      <workItem from="1561214772963" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561102317176</created>
@@ -668,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561205779646</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1561215080907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561215080907</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -698,13 +706,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355738000" />
+    <option name="totallyTimeSpent" value="356305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -714,7 +721,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2821229" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4036313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,10 +803,10 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="随便提交的" />
     <MESSAGE value="随便提交的222" />
-    <MESSAGE value="commit" />
     <MESSAGE value="无忧商城的数据库" />
     <MESSAGE value="修改goods表" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改goods表" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/UserController.java">
@@ -1403,7 +1410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/test/SolrUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
+        <state relative-caret-position="-668">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
