@@ -26,7 +26,12 @@ public class CitiesController {
 
     @RequestMapping("/findAll")
     public List<Cities> findAll() {
-        return citiesService.finAll();
+        return citiesService.findAll();
+    }
+
+    @RequestMapping("/findAllByProvincesId")
+    public List<Cities> findAllByProvincesId(String id) {
+        return citiesService.findAllByProvincesId(id);
     }
 
 }

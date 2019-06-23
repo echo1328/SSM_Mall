@@ -29,4 +29,9 @@ public class AreasController {
         return areasService.finAll();
     }
 
+    @RequestMapping("/findAllByCitiesId")
+    public List<Areas> findAllByCitiesId(String id) {
+        return areasService.findAllByCitiesId(id);
+    }
+
 }

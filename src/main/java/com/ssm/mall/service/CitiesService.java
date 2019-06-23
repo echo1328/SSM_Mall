@@ -7,6 +7,8 @@ import java.util.List;
 
 public interface CitiesService {
 
-    public List<Cities> finAll();
+    public List<Cities> findAll();
+
+    public List<Cities> findAllByProvincesId(String id);
 
 }

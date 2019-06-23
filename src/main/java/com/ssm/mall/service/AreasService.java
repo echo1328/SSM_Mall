@@ -9,4 +9,6 @@ public interface AreasService {
 
     public List<Areas> finAll();
 
+    public List<Areas> findAllByCitiesId(String id);
+
 }
