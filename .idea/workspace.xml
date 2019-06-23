@@ -7,34 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f228d09e-c9eb-4330-8471-a9a0f0f56595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/mapper/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/AddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AddressMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/AreasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/AreasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/CitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/CitiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/AreasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/AreasService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/CitiesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/CitiesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/AreasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/AreasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/CitiesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/CitiesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AreasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AreasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AreasService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AreasService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CitiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CitiesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AreasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AreasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AreasService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AreasService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CitiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CitiesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +36,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <folding>
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/util/AlipayConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/BrandServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ssm/mall/service/impl/BrandServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
@@ -132,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/AddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/AddressServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java" />
       </list>
     </option>
   </component>
@@ -220,33 +210,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM_Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM_Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM_Mall" type="b2602c69:ProjectViewProjectNode" />
@@ -609,7 +573,7 @@
       <workItem from="1561205251654" duration="578000" />
       <workItem from="1561205848103" duration="60000" />
       <workItem from="1561214772963" duration="849000" />
-      <workItem from="1561251248178" duration="7365000" />
+      <workItem from="1561251248178" duration="7620000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561102317176</created>
@@ -716,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561266781060</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="修改">
+      <created>1561273972001</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561273972001</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -746,7 +717,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363670000" />
+    <option name="totallyTimeSpent" value="363925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -847,19 +818,10 @@
     <MESSAGE value="修改goods表" />
     <MESSAGE value="commit" />
     <MESSAGE value="收货地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="收货地址" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Seckill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -1411,6 +1373,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

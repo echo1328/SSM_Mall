@@ -7,8 +7,7 @@ public class Address {
 
     private String city;
 
-    private String 
-area;
+    private String area;
 
     private String detail;
 
@@ -42,19 +41,12 @@ area;
         this.city = city == null ? null : city.trim();
     }
 
-    public String get
-area() {
-        return 
-area;
+    public String getarea() {
+        return area;
     }
 
-    public void set
-area(String 
-area) {
-        this.
-area = 
-area == null ? null : 
-area.trim();
+    public void setarea(String area) {
+        this.area = area == null ? null : area.trim();
     }
 
     public String getDetail() {
