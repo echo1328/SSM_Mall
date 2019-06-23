@@ -43,11 +43,11 @@
 <!--            <generatedKey column="id" sqlStatement="JDBC"/>-->
 <!--        </table>-->
 
-        <table tableName="goods" domainObjectName="Goods" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
-            <property name="my.isgen.usekeys" value="true"/>
-            <property name="useActualColumnNames" value="true"/>
-            <generatedKey column="id" sqlStatement="JDBC"/>
-        </table>
+<!--        <table tableName="goods" domainObjectName="Goods" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">-->
+<!--            <property name="my.isgen.usekeys" value="true"/>-->
+<!--            <property name="useActualColumnNames" value="true"/>-->
+<!--            <generatedKey column="id" sqlStatement="JDBC"/>-->
+<!--        </table>-->
 
 <!--        <table tableName="sort" domainObjectName="Sort" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">-->
 <!--            <property name="my.isgen.usekeys" value="true"/>-->
@@ -120,6 +120,24 @@
 <!--            <property name="useActualColumnNames" value="true"/>-->
 <!--            <generatedKey column="id" sqlStatement="JDBC"/>-->
 <!--        </table>-->
+
+        <table tableName="provinces" domainObjectName="Provinces" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+            <property name="my.isgen.usekeys" value="true"/>
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="cities" domainObjectName="Cities" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+            <property name="my.isgen.usekeys" value="true"/>
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="areas" domainObjectName="Areas" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="true" selectByExampleQueryId="false">
+            <property name="my.isgen.usekeys" value="true"/>
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
 
     </context>
 </generatorConfiguration>
