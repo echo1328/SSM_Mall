@@ -13,6 +13,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -51,7 +53,14 @@ public class SeckillServiceImpl implements SeckillService {
         } else {
             System.out.println("从缓存读取");
         }
-        return seckillList;
+        List<Seckill> list = new ArrayList<>();
+        Collections.shuffle(seckillList);
+        Collections.shuffle(seckillList);
+        Collections.shuffle(seckillList);
+        list.add(seckillList.get(0));
+        list.add(seckillList.get(1));
+        list.add(seckillList.get(2));
+        return list;
     }
 
     @Override
