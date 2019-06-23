@@ -3,15 +3,13 @@
 <mapper namespace="com.ssm.mall.mapper.AddressMapper">
   <resultMap id="BaseResultMap" type="com.ssm.mall.pojo.Address">
     <id column="address_id" jdbcType="INTEGER" property="address_id" />
-    <result column="province" jdbcType="VARCHAR" property="province" />
-    <result column="city" jdbcType="VARCHAR" property="city" />
-    <result column="
-area" jdbcType="VARCHAR" property="
-area" />
-    <result column="detail" jdbcType="VARCHAR" property="detail" />
+    <result column="provinces" jdbcType="INTEGER" property="provinces" />
+    <result column="cities" jdbcType="INTEGER" property="cities" />
+    <result column="areas" jdbcType="INTEGER" property="areas" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
     <result column="zip_code" jdbcType="INTEGER" property="zip_code" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="name2" jdbcType="VARCHAR" property="name2" />
+    <result column="phone2" jdbcType="VARCHAR" property="phone2" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -43,8 +41,7 @@ area" />
     </where>
   </sql>
   <sql id="Base_Column_List">
-    address_id, province, city, 
-area, detail, zip_code, name, phone
+    address_id, provinces, cities, areas, content, zip_code, name2, phone2
   </sql>
   <select id="selectByExample" parameterType="com.ssm.mall.pojo.AddressExample" resultMap="BaseResultMap">
     select
@@ -72,14 +69,12 @@ area, detail, zip_code, name, phone
     where address_id = #{address_id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.ssm.mall.pojo.Address">
-    insert into address (address_id, province, city, 
-      
-area, detail, zip_code, 
-      name, phone)
-    values (#{address_id,jdbcType=INTEGER}, #{province,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, 
-      #{
-area,jdbcType=VARCHAR}, #{detail,jdbcType=VARCHAR}, #{zip_code,jdbcType=INTEGER}, 
-      #{name,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR})
+    insert into address (address_id, provinces, cities, 
+      areas, content, zip_code, 
+      name2, phone2)
+    values (#{address_id,jdbcType=INTEGER}, #{provinces,jdbcType=INTEGER}, #{cities,jdbcType=INTEGER}, 
+      #{areas,jdbcType=INTEGER}, #{content,jdbcType=VARCHAR}, #{zip_code,jdbcType=INTEGER}, 
+      #{name2,jdbcType=VARCHAR}, #{phone2,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ssm.mall.pojo.Address">
     insert into address
@@ -87,100 +82,91 @@ area,jdbcType=VARCHAR}, #{detail,jdbcType=VARCHAR}, #{zip_code,jdbcType=INTEGER}
       <if test="address_id != null">
         address_id,
       </if>
-      <if test="province != null">
-        province,
+      <if test="provinces != null">
+        provinces,
       </if>
-      <if test="city != null">
-        city,
+      <if test="cities != null">
+        cities,
       </if>
-      <if test="
-area != null">
-        
-area,
+      <if test="areas != null">
+        areas,
       </if>
-      <if test="detail != null">
-        detail,
+      <if test="content != null">
+        content,
       </if>
       <if test="zip_code != null">
         zip_code,
       </if>
-      <if test="name != null">
-        name,
+      <if test="name2 != null">
+        name2,
       </if>
-      <if test="phone != null">
-        phone,
+      <if test="phone2 != null">
+        phone2,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="address_id != null">
         #{address_id,jdbcType=INTEGER},
       </if>
-      <if test="province != null">
-        #{province,jdbcType=VARCHAR},
+      <if test="provinces != null">
+        #{provinces,jdbcType=INTEGER},
       </if>
-      <if test="city != null">
-        #{city,jdbcType=VARCHAR},
+      <if test="cities != null">
+        #{cities,jdbcType=INTEGER},
       </if>
-      <if test="
-area != null">
-        #{
-area,jdbcType=VARCHAR},
+      <if test="areas != null">
+        #{areas,jdbcType=INTEGER},
       </if>
-      <if test="detail != null">
-        #{detail,jdbcType=VARCHAR},
+      <if test="content != null">
+        #{content,jdbcType=VARCHAR},
       </if>
       <if test="zip_code != null">
         #{zip_code,jdbcType=INTEGER},
       </if>
-      <if test="name != null">
-        #{name,jdbcType=VARCHAR},
+      <if test="name2 != null">
+        #{name2,jdbcType=VARCHAR},
       </if>
-      <if test="phone != null">
-        #{phone,jdbcType=VARCHAR},
+      <if test="phone2 != null">
+        #{phone2,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.ssm.mall.pojo.Address">
     update address
     <set>
-      <if test="province != null">
-        province = #{province,jdbcType=VARCHAR},
+      <if test="provinces != null">
+        provinces = #{provinces,jdbcType=INTEGER},
       </if>
-      <if test="city != null">
-        city = #{city,jdbcType=VARCHAR},
+      <if test="cities != null">
+        cities = #{cities,jdbcType=INTEGER},
       </if>
-      <if test="
-area != null">
-        
-area = #{
-area,jdbcType=VARCHAR},
+      <if test="areas != null">
+        areas = #{areas,jdbcType=INTEGER},
       </if>
-      <if test="detail != null">
-        detail = #{detail,jdbcType=VARCHAR},
+      <if test="content != null">
+        content = #{content,jdbcType=VARCHAR},
       </if>
       <if test="zip_code != null">
         zip_code = #{zip_code,jdbcType=INTEGER},
       </if>
-      <if test="name != null">
-        name = #{name,jdbcType=VARCHAR},
+      <if test="name2 != null">
+        name2 = #{name2,jdbcType=VARCHAR},
       </if>
-      <if test="phone != null">
-        phone = #{phone,jdbcType=VARCHAR},
+      <if test="phone2 != null">
+        phone2 = #{phone2,jdbcType=VARCHAR},
       </if>
     </set>
     where address_id = #{address_id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.ssm.mall.pojo.Address">
     update address
-    set province = #{province,jdbcType=VARCHAR},
-      city = #{city,jdbcType=VARCHAR},
-      
-area = #{
-area,jdbcType=VARCHAR},
-      detail = #{detail,jdbcType=VARCHAR},
+    set provinces = #{provinces,jdbcType=INTEGER},
+      cities = #{cities,jdbcType=INTEGER},
+      areas = #{areas,jdbcType=INTEGER},
+      content = #{content,jdbcType=VARCHAR},
       zip_code = #{zip_code,jdbcType=INTEGER},
-      name = #{name,jdbcType=VARCHAR},
-      phone = #{phone,jdbcType=VARCHAR}
+      name2 = #{name2,jdbcType=VARCHAR},
+      phone2 = #{phone2,jdbcType=VARCHAR}
     where address_id = #{address_id,jdbcType=INTEGER}
   </update>
 </mapper>

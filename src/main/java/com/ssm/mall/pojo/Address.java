@@ -3,19 +3,19 @@ package com.ssm.mall.pojo;
 public class Address {
     private Integer address_id;
 
-    private String province;
+    private Integer provinces;
 
-    private String city;
+    private Integer cities;
 
-    private String area;
+    private Integer areas;
 
-    private String detail;
+    private String content;
 
     private Integer zip_code;
 
-    private String name;
+    private String name2;
 
-    private String phone;
+    private String phone2;
 
     public Integer getAddress_id() {
         return address_id;
@@ -25,36 +25,36 @@ public class Address {
         this.address_id = address_id;
     }
 
-    public String getProvince() {
-        return province;
+    public Integer getProvinces() {
+        return provinces;
     }
 
-    public void setProvince(String province) {
-        this.province = province == null ? null : province.trim();
+    public void setProvinces(Integer provinces) {
+        this.provinces = provinces;
     }
 
-    public String getCity() {
-        return city;
+    public Integer getCities() {
+        return cities;
     }
 
-    public void setCity(String city) {
-        this.city = city == null ? null : city.trim();
+    public void setCities(Integer cities) {
+        this.cities = cities;
     }
 
-    public String getarea() {
-        return area;
+    public Integer getAreas() {
+        return areas;
     }
 
-    public void setarea(String area) {
-        this.area = area == null ? null : area.trim();
+    public void setAreas(Integer areas) {
+        this.areas = areas;
     }
 
-    public String getDetail() {
-        return detail;
+    public String getContent() {
+        return content;
     }
 
-    public void setDetail(String detail) {
-        this.detail = detail == null ? null : detail.trim();
+    public void setContent(String content) {
+        this.content = content == null ? null : content.trim();
     }
 
     public Integer getZip_code() {
@@ -65,19 +65,34 @@ public class Address {
         this.zip_code = zip_code;
     }
 
-    public String getName() {
-        return name;
+    public String getName2() {
+        return name2;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setName2(String name2) {
+        this.name2 = name2 == null ? null : name2.trim();
     }
 
-    public String getPhone() {
-        return phone;
+    public String getPhone2() {
+        return phone2;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone == null ? null : phone.trim();
+    public void setPhone2(String phone2) {
+        this.phone2 = phone2 == null ? null : phone2.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "address_id=" + address_id +
+                ", provinces=" + provinces +
+                ", cities=" + cities +
+                ", areas=" + areas +
+                ", content='" + content + '\'' +
+                ", zip_code=" + zip_code +
+                ", name2='" + name2 + '\'' +
+                ", phone2='" + phone2 + '\'' +
+                '}';
+    }
+
 }
