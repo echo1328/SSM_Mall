@@ -7,353 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f228d09e-c9eb-4330-8471-a9a0f0f56595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AdContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AdContentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AdTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AdTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AlipayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AlipayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AreasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/AreasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/GoodsSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/GoodsSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/MyOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/MyOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/ProvincesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/ProvincesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SeckillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SeckillController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SellerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SortController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/SortController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AdContentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AdContentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AdTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AdTypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AddressMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AreasMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/AreasMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CarMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CarMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CitiesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CitiesMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/CommentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/GoodsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/MyOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/MyOrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/ProvincesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/ProvincesMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SeckillMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SeckillMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SellerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SellerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/ShopMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/ShopMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SortMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/SortMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdContentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AdTypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AddressExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Areas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Areas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/AreasExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/BrandExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CarExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Cities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Cities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CitiesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/CommentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/GoodsExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/MyOrderExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/OrderExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Provinces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Provinces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ProvincesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Seckill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Seckill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SeckillExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Seller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SellerExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/ShopExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/SortExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/pojo/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AdContentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AdContentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AdTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AdTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AddressService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AreasService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/AreasService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CitiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CitiesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/GoodsSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/GoodsSearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/MyOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/MyOrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/ProvincesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/ProvincesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SeckillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SeckillService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SellerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SellerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SortService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/SortService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AdContentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AdContentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AdTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AdTypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/GoodsSearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/GoodsSearchServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/MyOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/MyOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/ProvincesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/ProvincesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SeckillServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SellerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SellerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/ShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/ShopServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SortServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/SortServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/FastDFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/FastDFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/MBGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/MBGTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/SmsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/SmsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/SolrUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/SolrUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/test/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/AlipayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/AlipayConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/FastDFSClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/FastDFSClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/OverIsMergeablePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/mall/util/OverIsMergeablePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/PageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AdContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AdContentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AdTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AdTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AlipayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AlipayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AreasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/AreasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/GoodsSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/GoodsSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/MyOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/MyOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/ProvincesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/ProvincesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SeckillController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SeckillController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SellerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SortController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/SortController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AdContentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AdContentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AdTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AdTypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AddressMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AreasMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/AreasMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CarMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CarMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CitiesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CitiesMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/CommentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/GoodsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/MyOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/MyOrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/ProvincesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/ProvincesMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SeckillMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SeckillMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SellerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SellerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/ShopMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/ShopMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SortMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/SortMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdContentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AdTypeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AddressExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Areas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Areas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/AreasExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/BrandExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CarExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Cities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Cities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CitiesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/CommentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/GoodsExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/MyOrderExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/OrderExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Provinces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Provinces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ProvincesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Seckill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Seckill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SeckillExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Seller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SellerExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/ShopExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/SortExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/pojo/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AdContentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AdContentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AdTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AdTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AddressService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AreasService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/AreasService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CitiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CitiesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/GoodsSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/GoodsSearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/MyOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/MyOrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/ProvincesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/ProvincesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SeckillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SeckillService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SellerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SellerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/ShopService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SortService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/SortService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AdContentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AdContentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AdTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AdTypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/AreasServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CitiesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/GoodsSearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/GoodsSearchServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/MyOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/MyOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/ProvincesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/ProvincesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SeckillServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SellerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SellerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/ShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/ShopServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SortServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/SortServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/FastDFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/FastDFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/MBGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/MBGTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/SmsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/SmsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/SolrUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/SolrUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/test/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/AlipayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/AlipayConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/FastDFSClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/FastDFSClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/OverIsMergeablePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/com/ssm/mall/util/OverIsMergeablePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/entity/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/entity/PageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm-mall/WEB-INF/classes/entity/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ssm/mall/service/impl/BrandServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ssm/mall/service/impl/BrandServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mall.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mall.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -504,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -549,7 +205,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,7 +214,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -891,7 +546,9 @@
       <workItem from="1561358233482" duration="1683000" />
       <workItem from="1561366478562" duration="5340000" />
       <workItem from="1561388596539" duration="633000" />
-      <workItem from="1561389282614" duration="442000" />
+      <workItem from="1561389282614" duration="600000" />
+      <workItem from="1561427574052" duration="28000" />
+      <workItem from="1561529514097" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561102317176</created>
@@ -1026,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561288785520</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit">
+      <created>1561389848210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561389848211</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1059,12 +723,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381589000" />
+    <option name="totallyTimeSpent" value="382634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1985677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1074,7 +738,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.33938548" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33938548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1374,13 +1038,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mall.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mall/pojo/Goods.java">
@@ -1799,6 +1456,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mall.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
